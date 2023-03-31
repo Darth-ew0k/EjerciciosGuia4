@@ -17,13 +17,15 @@ public class Ejercicio4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Scanner leer = new Scanner(System.in);
-        
+        System.out.println("-----------------------------------------------");
         System.out.println("Ingrese un numero a verificar si es o no PRIMO.");
+        System.out.println("-----------------------------------------------");
         int num = leer.nextInt();
-       
+        System.out.println("*****");
         System.out.println(esPrimo(num));
-        
+        System.out.println("*****");
         
     }
     

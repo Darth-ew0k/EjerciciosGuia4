@@ -22,13 +22,17 @@ public class Ejercicio3 {
         System.out.println("Ingrese la cantidad de Euros que quiere convertir");
         int num = leer.nextInt();
 
-        
+        System.out.println("**********************");
         System.out.println("1 - Convertir a Libras");
         System.out.println("2 - Convertir a Yenes");
         System.out.println("3 - Convertir a Dolares");
+        System.out.println("**********************");
         
+        System.out.println("");
         
+        System.out.println("----------------------- o ------------------------");
         System.out.println("Ingrese a la divisa que desea convertir sus Euro:");
+        System.out.println("----------------------- o ------------------------");
         int opc = leer.nextInt();
         
         switch(opc){
